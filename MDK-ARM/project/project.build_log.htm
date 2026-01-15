@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Halley Yuan, HP Inc., LIC=65ISZ-JGVS6-MMK9I-T8310-MY3SR-AYVXE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\ASSISTAUDIO\AudioAssistant-master\AudioAssistant-master\MDK-ARM\project.uvprojx
+Project File Date:  01/14/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'project'
+compiling music_assistant.c...
+..\Core\Src\music_assistant.c(303): warning:  #177-D: variable "msg"  was declared but never referenced
+    char msg[] = "!!! PLAYER BUTTON CLICKED !!!\r\n";
+..\Core\Src\music_assistant.c(666): warning:  #177-D: variable "msg"  was declared but never referenced
+    char msg[] = "!!! BLUETOOTH BUTTON CLICKED !!!\r\n";
+..\Core\Src\music_assistant.c(2266): warning:  #177-D: function "create_recorder_page"  was declared but never referenced
+  static void create_recorder_page(void)
+..\Core\Src\music_assistant.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=210084 RO-data=278388 RW-data=1228 ZI-data=124020  
+FromELF: creating hex file...
+"project\project.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.1.pack
+                Keil::STM32F4xx_DFP@3.1.1
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_project
+  C:/Keil_v5/ARM/PACK/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
